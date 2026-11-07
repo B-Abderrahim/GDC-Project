@@ -1,3 +1,4 @@
+                                    #This Database is used with Datagrip (MySql)
 create database GDC_Bank;
 use GDC_Bank;
 create table customers(
