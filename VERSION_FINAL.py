@@ -14,7 +14,8 @@ from decimal import Decimal, InvalidOperation
 import mysql.connector
 from mysql.connector import Error
 
-# ----------------------------------------------------------------- settings
+# ----------------------------------------------------------------- settings 
+#Connexion to Database MySql 
 DB_CONFIG = dict(
     host=os.getenv("GDC_DB_HOST", "localhost"),
     user=os.getenv("GDC_DB_USER", "root"),
